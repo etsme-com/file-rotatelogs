@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/etsme-com/file-rotatelogs/internal/fileutil"
 	strftime "github.com/lestrrat-go/strftime"
 	"github.com/pkg/errors"
-	"gitlab.etsme.com/cmcc-stable-lc/osware/ssf/file-rotatelogs/internal/fileutil"
 )
 
 func (c clockFn) Now() time.Time {

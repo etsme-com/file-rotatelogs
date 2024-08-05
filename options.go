@@ -3,7 +3,7 @@ package rotatelogs
 import (
 	"time"
 
-	"gitlab.etsme.com/cmcc-stable-lc/osware/ssf/file-rotatelogs/internal/option"
+	"github.com/etsme-com/file-rotatelogs/internal/option"
 )
 
 const (

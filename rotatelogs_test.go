@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
+	rotatelogs "github.com/etsme-com/file-rotatelogs"
 	"github.com/jonboulle/clockwork"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
-	rotatelogs "gitlab.etsme.com/cmcc-stable-lc/osware/ssf/file-rotatelogs"
 )
 
 func TestSatisfiesIOWriter(t *testing.T) {

@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/etsme-com/file-rotatelogs/internal/fileutil"
 	"github.com/jonboulle/clockwork"
 	"github.com/lestrrat-go/strftime"
 	"github.com/stretchr/testify/assert"
-	"gitlab.etsme.com/cmcc-stable-lc/osware/ssf/file-rotatelogs/internal/fileutil"
 )
 
 func TestGenerateFn(t *testing.T) {
